@@ -9,6 +9,7 @@ Reboot the computer to finish the installation.
 
 then 
 pip install napari
+
 sudo chmod a+rw /dev/ttyACM0
 
 in the config file: change the name of the controller version from teensy to Arduino Due
