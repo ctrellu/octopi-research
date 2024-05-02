@@ -7,6 +7,12 @@ chmod +x setup_22.04.sh
 ```
 Reboot the computer to finish the installation.
 
+then 
+pip install napari
+sudo chmod a+rw /dev/ttyACM0
+
+in the config file: change the name of the controller version from teensy to Arduino Due
+
 ## Optional or Hardware-specific dependencies
 
 <details>
